@@ -10,34 +10,60 @@
 
 body {
     display: flex;
+    min-height: 100vh;
     font-family: "Comfortaa", sans-serif;
 }
 
 .explore {
-    width: 15%;
-    border: 2px solid black;
-    height: 100vh;
-    padding: 5px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    border-right: 2px solid black;
+    box-shadow: 1px 0px 20px 2px;
+    min-height: 100vh;
 }
 
 .explore__titulo {
     font-size: 20px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 7px;
 }
 
 .explore__menuNav {
     font-size: 15px;
+    margin: 25px 0px 0px 17px;
 }
 
 .menuNav__list--item {
     list-style: none;
-    margin: 25px 0px 25px 0;
-    padding-top: 5px;
+    padding-top: 25px;
 }
 
 .explore__rodape {
-    margin-top: 420px;
+    margin: auto 5px 10px 7px;
+
 }
 
+.explore__rodape--fotoUser {
+    height: 30px;
+    width: 30px;
+    transform: translateY(5px);
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 10px;
+}
 
+.explore__rodape--nameUser {
+    font-size: 12px;
+    margin-right: 10px;
+}
 
+.explore__rodape--button {
+    border: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.principal {
+    margin-left: 25px;
+}
