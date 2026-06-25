@@ -1,3 +1,18 @@
 .configuracoes {
     display: none;
+    background-color: var(--corExplore1);
+    box-shadow: #64646f33 -0.6rem 0rem 1.8rem 0rem;
+}
+
+.configuracoes__menuNav--list {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: var(--corExplore3);
+    padding: 0.5rem;  
+}
+
+.menuNavCon__list--item a {
+    color: inherit;
+    margin-top: 1rem;
 }
