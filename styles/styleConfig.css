@@ -21,3 +21,18 @@
 .configuracoes__menuNav--list a:hover {
     color: var(--corPadrao);
 }
+
+.configuracoes__infoUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.configuracoes__infoUser--fotoUser {
+    height: 6rem;
+    width: 6rem;
+    padding: 0.5rem;
+    border: 0.1rem solid var(--corPadrao2);
+    border-radius: 3.1rem;
+}
